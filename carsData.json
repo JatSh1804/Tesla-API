@@ -1,0 +1,380 @@
+    [{
+        "id": 1,
+        "path": "/Model-3",
+        "title": "Model 3",
+        "modelId": "3",
+        "photoAngle": [
+            "STUD_FRONT34",
+            "STUD_SIDEVIEW",
+            "STUD_REAR34",
+            "STUD_RIMCLOSEUP",
+            "STUD_Interior"
+        ],
+        "Interiorphoto": "STUD_Interior",
+        "backgroundImg": {
+            "Desktop:": "/img/Model-3-Desktop.avif",
+            "Mobile": "/img/Model-3-Mobile.avif"
+        },
+        "carOption": "View Inventory",
+        "description":
+            "Tesla All-Wheel Drive has two independent motors for imporved redundancy, each with only one moving part for minimal maintenance and maximum durability. Unlike traditional all-wheel drive systems, they digitally control torque to the front and rear wheels for far better handling and traction control.",
+        "inStock": true,
+        "highlights": [
+            "Auto Lane Change",
+            "Autopark",
+            "Summon",
+            "Full Self-Driving Computer",
+            "Traffic Light and Stop Sign Contorl"
+        ],
+        "quantity": 1,
+        "ref": null,
+
+        "ChargingOffer": "New Model 3 vehicles qualify for a federal tax credit for eligible buyers: $3,750 for Rear-Wheel Drive and Long Range, and $7,500 for Performance.",
+        "Range": "272",
+        "top_speed": "140",
+        "accelaration": "5.8",
+        "UpgradeSpecs": {
+            "name": "Model 3 Performance",
+            "price": { "nonPlaid": 41940, "Plaid": 53240 },
+            "upgradeType": "Performance Upgrade",
+            "features": [
+                "20’’ Überturbine Wheels",
+                "Performance Brakes",
+                "Carbon fiber spoiler",
+                "Aluminum alloy pedals"
+            ]
+
+        },
+
+        "CarCode": "MT322",
+        "Interior": [
+            {
+                "name": "Matt Black",
+                "for": "MattBlack",
+                "price": "Included",
+                "code": "IBB1",
+                "img": "/img/colour/Paint_Black.avif"
+            },
+            {
+                "name": "Classic White",
+                "for": "ClassicWhite",
+                "price": 1000,
+                "code": "IBW1",
+                "img": "/img/colour/Paint_White.avif"
+            }
+        ],
+        "Autopilot": {
+            "price": 3000,
+            "specs": ["Navigate on Autopilot", "Auto Lane Change", "Autopark", "Summon", "Smart Summon"]
+        },
+        "wheels": {
+            "wheels": { "code": "W40B", "price": "Included" },
+            "sport": { "code": "W41B", "price": 1500 }
+        },
+        "colour": {
+            "MidnightSilverMetallic": 1000,
+            "PearlWhiteMultiCoat": "Included",
+            "DeepBlueMetallic": 1000,
+            "SolidBlack": 1500,
+            "RedMultiCoat": 2000
+        }
+    }, {
+        "id": 2,
+        "path": "/Model-Y",
+        "title": "Model Y",
+        "modelId": "y",
+        "photoAngle": [
+            "FRONT34",
+            "SIDE",
+            "REAR34",
+            "RIMCLOSEUP",
+            "STUD_Interior"
+        ],
+        "inStock": true,
+        "backgroundImg": {
+            "Desktop:": "/img/Model-Y-Desktop.avif",
+            "Mobile": "/img/Model-Y-Mobile.avif"
+        },
+        "carOption": "Leasing starting at $349/mo",
+
+        "description":
+            "With the most storage space and towing capacity of any electric SUV, and seating for up to seven adults, Model X delivers maximum utility. Front doors open and close automatically, Falcon Wing doors allow for easier loading and a standard trailer hitch lets you bring your gear anywhere you go.",
+        "highlights": [
+            "Auto Lane Change",
+            "Autopark",
+            "Summon",
+            "Full Self-Driving Computer",
+
+            "Traffic Light and Stop Sign Control"
+        ],
+        "quantity": 1,
+        "ref": null,
+        "ChargingOffer": "All new Model 3 and Model Y purchases qualify for a $7,500 federal tax credit for eligible buyers. Additional state incentives may be available.",
+        "Range": "330",
+        "top_speed": "135",
+        "accelaration": "4.8",
+        "UpgradeSpecs": {
+            "name": "Model Y Performance",
+            "price": { "nonPlaid": 47740, "Plaid": 54490 },
+            "upgradeType": "Performance Upgrade",
+            "features": [
+                "Quickest accelerating car in production today",
+                "0-60 mph: 1.99s",
+                "1/4 mile: 9.23@155 mph trap speed",
+                "1,020 horsepower",
+                "Three high performance motors with carbon - sleeved rotors",
+                "Torque vectoring",
+                "Higher thermal capability brake pads",
+                "Carbon fiber spoiler"]
+        },
+
+
+        "CarCode": "MTY11",
+        "colour": {
+            "MidnightSilverMetallic": 1000,
+            "PearlWhiteMultiCoat": "Included",
+            "DeepBlueMetallic": 1000,
+            "SolidBlack": 1500,
+            "RedMultiCoat": 2000
+        },
+
+        "Interior": [
+            {
+                "name": "Matt Black",
+                "for": "MattBlack",
+                "price": "Included",
+                "code": "INPB0",
+                "img": "/img/colour/Paint_Black.avif"
+            },
+            {
+                "name": "Classic White",
+                "for": "ClassicWhite",
+                "price": 1000,
+                "code": "INPW0",
+                "img": "/img/colour/Paint_White.avif"
+
+            }
+        ],
+        "wheels": {
+            "wheels": { "code": "WY19B", "price": "Included" },
+            "sport": { "code": "WY20P", "price": 2000 }
+        },
+        "Autopilot": {
+            "price": 3000,
+            "specs": ["Navigate on Autopilot", "Auto Lane Change", "Autopark", "Summon", "Smart Summon"]
+        }
+    },
+
+
+{
+        "id": 3,
+        "path": "/Model-S",
+        "title": "Model S",
+        "modelId": "s",
+        "carOption": "View Inventory",
+        "photoAngle": [
+            "STUD_FRONT34",
+            "SIDE",
+            "REAR34",
+            "RIMCLOSEUP",
+            "Interior"
+        ],
+
+
+        "description":
+            "Tesla designed Model S from the ground-up as an electric vehicle — each component, including batteries, motors and exterior aerodynamics are optimized to benefit from one another and create one of the most efficient, yet unbelievably powerful vehicles ever built.",
+        "backgroundImg": {
+            "Desktop:": "/img/Model-S-Desktop.avif",
+            "Mobile": "/img/Model-S-Mobile.avif"
+        },
+        "inStock": false,
+
+        "highlights": [
+            "Navigate on Autopilot",
+            "Auto Lane Change",
+            "Autopark",
+            "Summon",
+            "Full Self-Driving Computer",
+            "Traffic Light and Stop Sign Control"
+        ],
+        "quantity": 1,
+        "ref": null,
+        "ChargingOffer": "Receive three years of unlimited free Supercharging with purchase of a new Model S or Model X.",
+        "Range": "405",
+        "top_speed": "149",
+        "accelaration": "3.1",
+        "UpgradeSpecs": {
+            "name": "Model S Plaid",
+            "price": { "nonPlaid": 93740, "Plaid": 108490 },
+            "upgradeType": "Plaid Upgrade",
+            "features": [
+                "Quickest accelerating car in production today",
+                "0-60 mph: 1.99s",
+                "1/4 mile: 9.23@155 mph trap speed",
+                "1,020 horsepower",
+                "Three high performance motors with carbon - sleeved rotors",
+                "Torque vectoring",
+                "Higher thermal capability brake pads",
+                "Carbon fiber spoiler"]
+        },
+
+        "CarCode": "MTS13",
+        "colour": {
+            "MidnightSilverMetallic": 1000,
+            "PearlWhiteMultiCoat": "Included",
+            "DeepBlueMetallic": 1500,
+            "SolidBlack": 1500,
+            "RedMultiCoat": 3000
+        },
+
+        "Interior": [
+            {
+                "name": "Matt Black",
+                "for": "MattBlack",
+                "price": "Included",
+                "code": "IBE00",
+                "img": "/img/colour/Paint_Black.avif"
+
+            },
+            {
+                "name": "Classic White",
+                "for": "ClassicWhite",
+                "price": 1000,
+                "code": "IWW00",
+                "img": "/img/colour/Paint_White.avif"
+
+            },
+            {
+                "name": "Cream",
+                "for": "Cream",
+                "price": 2000,
+                "code": "ICW00",
+                "img": "/img/colour/Interior_Cream.avif"
+            }
+        ],
+        "wheels": {
+            "wheels": { "code": "WS91", "price": "Included" },
+            "sport": { "code": "WS11", "price": 4500 }
+        },
+        "Autopilot": {
+            "price": 3000,
+            "specs": ["Navigate on Autopilot", "Auto Lane Change", "Autopark", "Summon", "Smart Summon"]
+        }
+
+    }, {
+        "id": 4,
+        "path": "/Model-X",
+        "title": "Model X",
+        "modelId": "x",
+        "photoAngle": ["FRONT34", "SIDE", "REAR34", "RIMCLOSEUP", "Interior"],
+
+        "backgroundImg": {
+            "Desktop:": "/img/Model-X-Desktop.avif",
+            "Mobile": "/img/Model-X-Mobile.avif"
+        },
+        "inStock": true,
+        "carOption": "View Inventory",
+        "description":
+            "Tesla designed Model X from the ground-up as an electric vehicle — each component, including batteries, motors and exterior aerodynamics are optimized to benefit from one another and create one of the most efficient, yet unbelievably powerful vehicles ever built.",
+        "highlights": [
+            "Auto Lane Change",
+            "Autopark",
+            "Summon",
+            "Full Self-Driving Computer",
+            "Traffic Light and Stop Sign Control"
+        ],
+        "quantity": 1,
+        "ref": null,
+        "ChargingOffer": "Receive three years of unlimited free Supercharging with purchase of a new Model S or Model X. Finance your purchase for as low as 3.99%.",
+        "Range": "348",
+        "top_speed": "149",
+        "accelaration": "3.8",
+        "UpgradeSpecs": {
+            "name": "Model X Plaid",
+            "price": { "nonPlaid": 98490, "Plaid": 108490 },
+            "upgradeType": "Plaid Upgrade",
+            "features": [
+                "Quickest accelerating car in production today",
+                "0-60 mph: 1.99s",
+                "1/4 mile: 9.23@155 mph trap speed",
+                "1,020 horsepower",
+                "Three high performance motors with carbon - sleeved rotors",
+                "Torque vectoring",
+                "Higher thermal capability brake pads",
+                "Carbon fiber spoiler"]
+        },
+        "CarCode": "MTX15",
+        "colour": {
+            "MidnightSilverMetallic": 1500,
+            "PearlWhiteMultiCoat": "Included",
+            "DeepBlueMetallic": 1500,
+            "SolidBlack": 1500,
+            "RedMultiCoat": 3000
+        },
+
+        "Interior": [
+            {
+                "name": "Matt Black",
+                "for": "Mattblack",
+                "price": "Included",
+                "code": "IBE00",
+                "img": "/img/colour/Paint_Black.avif"
+
+            },
+            {
+                "name": "Classic White",
+                "for": "ClassicWhite",
+                "price": "$1000",
+                "code": "IWW00",
+                "img": "/img/colour/Paint_White.avif"
+
+            },
+            {
+                "name": "Cream",
+                "for": "Cream",
+                "price": 2000,
+                "code": "ICW00",
+                "img": "/img/colour/Interior_Cream.avif"
+            }
+        ],
+        "wheels": {
+            "wheels": { "code": "WX00", "price": "Included" },
+            "sport": { "code": "WX20", "price": 5500 }
+        },
+        "Autopilot": {
+            "price": 3000,
+            "specs": ["Navigate on Autopilot", "Auto Lane Change", "Autopark", "Summon", "Smart Summon"]
+        }
+
+    },
+    {
+        "id": 5,
+        "path": "/Solar-Panels",
+        "title": "Solar Panels",
+        "Interiorphoto": "STUD_Interior",
+
+        "description": "Tesla designed Model S from the ground-up as an electric vehicle — each component, including batteries, motors and exterior aerodynamics are optimized to benefit from one another and create one of the most efficient, yet unbelievably powerful vehicles ever built.",
+        "carOption": "Lowest Cost Solar Panels in America",
+        "backgroundImg": {
+            "Desktop:": "/img/SolarPanels_Desktop.avif",
+            "Mobile": "/img/SolarPanels-Mobile.avif"
+        },
+        "price": 11000,
+        "inStock": true,
+
+
+
+        "UpgradeSpecs": [""],
+        "Interior": [
+            {
+                "price": "Included"
+            },
+            { "BlackandWhite": 1000 }
+        ],
+        "Autopilot": {
+            "price": 3000,
+            "specs": ["Navigate on Autopilot", "Auto Lane Change", "Autopark", "Summon", "Smart Summon"]
+        }
+
+    }
+]
