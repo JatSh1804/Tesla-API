@@ -12,7 +12,7 @@
         ],
         "Interiorphoto": "STUD_Interior",
         "backgroundImg": {
-            "Desktop:": "/img/Model-3-Desktop.avif",
+            "Desktop": "/img/Model-3-Desktop.avif",
             "Mobile": "/img/Model-3-Mobile.avif"
         },
         "carOption": "View Inventory",
@@ -92,7 +92,7 @@
         ],
         "inStock": true,
         "backgroundImg": {
-            "Desktop:": "/img/Model-Y-Desktop.avif",
+            "Desktop": "/img/Model-Y-Desktop.avif",
             "Mobile": "/img/Model-Y-Mobile.avif"
         },
         "carOption": "Leasing starting at $349/mo",
@@ -184,7 +184,7 @@
         "description":
             "Tesla designed Model S from the ground-up as an electric vehicle — each component, including batteries, motors and exterior aerodynamics are optimized to benefit from one another and create one of the most efficient, yet unbelievably powerful vehicles ever built.",
         "backgroundImg": {
-            "Desktop:": "/img/Model-S-Desktop.avif",
+            "Desktop": "/img/Model-S-Desktop.avif",
             "Mobile": "/img/Model-S-Mobile.avif"
         },
         "inStock": false,
@@ -269,7 +269,7 @@
         "photoAngle": ["FRONT34", "SIDE", "REAR34", "RIMCLOSEUP", "Interior"],
 
         "backgroundImg": {
-            "Desktop:": "/img/Model-X-Desktop.avif",
+            "Desktop": "/img/Model-X-Desktop.avif",
             "Mobile": "/img/Model-X-Mobile.avif"
         },
         "inStock": true,
@@ -356,7 +356,7 @@
         "description": "Tesla designed Model S from the ground-up as an electric vehicle — each component, including batteries, motors and exterior aerodynamics are optimized to benefit from one another and create one of the most efficient, yet unbelievably powerful vehicles ever built.",
         "carOption": "Lowest Cost Solar Panels in America",
         "backgroundImg": {
-            "Desktop:": "/img/SolarPanels_Desktop.avif",
+            "Desktop": "/img/SolarPanels_Desktop.avif",
             "Mobile": "/img/SolarPanels-Mobile.avif"
         },
         "price": 11000,
