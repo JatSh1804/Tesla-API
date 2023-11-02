@@ -10,10 +10,9 @@ const carsData = require('./carsData.json');
 console.log(carsData[0].id);
 const PORT = process.env.PORT || 3001;
 
-// app.use(express.static(path.join(__dirname, 'carsData.json')));
 app.use(cors())
 // Middleware to check API key
-const apiKey = 123;
+const apiKey = process.env.ACCESS_PASS;
 const checkApiKey = (req, res, next) => {
     const providedApiKey = req.headers['x-api-key'];
     if (providedApiKey == apiKey) {
