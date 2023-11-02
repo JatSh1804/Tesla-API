@@ -21,7 +21,7 @@ const checkApiKey = (req, res, next) => {
         res.status(401).send('Unauthorized');
     }
 };
-app.use(checkApiKey);
+// app.use(checkApiKey);
 
 
 async function GetData(id) {
