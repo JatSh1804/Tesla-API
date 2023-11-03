@@ -6,8 +6,8 @@ const app = express();
 const path = require('path');
 const cors = require('cors')
 
-const carsData = require('./carsData.json');
-console.log(carsData[0].id);
+//const carsData = require('./carsData.json');
+//console.log(carsData[0].id);
 const PORT = process.env.PORT || 3001;
 
 app.use(cors())
