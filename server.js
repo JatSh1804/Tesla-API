@@ -26,7 +26,7 @@ const checkApiKey = (req, res, next) => {
 
 async function GetData(id) {
     if (id == 'AllCar') {
-        return {status:"Endpoint closed for now.};
+        return {status:"Endpoint closed for now."};
         await req.find().then((data) => { console.log(data); return data });
     } else {
         return await req.find({ path: '/' + id }).then(data => { console.log(data); return data });
