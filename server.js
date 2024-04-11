@@ -26,7 +26,8 @@ const checkApiKey = (req, res, next) => {
 
 async function GetData(id) {
     if (id == 'AllCar') {
-        return await req.find().then((data) => { console.log(data); return data });
+        return;
+        await req.find().then((data) => { console.log(data); return data });
     } else {
         return await req.find({ path: '/' + id }).then(data => { console.log(data); return data });
     }
